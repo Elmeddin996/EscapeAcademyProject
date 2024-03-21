@@ -1,0 +1,46 @@
+﻿@model Teacher
+@{
+    ViewData["Title"] = "Create";
+}
+
+
+<div class="row justify-content-center">
+    <div class="col-md-8">
+        <h1>Yeni Müəllim Əlavə Et</h1>
+        <form asp-action="create" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label asp-for="Name">Ad</label>
+                <input class="form-control" placeholder="Ad Əlavə Edin" asp-for="Name">
+            </div>
+            <div class="form-group">
+                <label asp-for="Surename">Soyad</label>
+                <input class="form-control" placeholder="Soyad Əlavə Edin" asp-for="Surename">
+            </div>
+            <div class="form-group">
+                <label asp-for="About">Haqqında</label>
+                <textarea class="form-control" asp-for="About" rows="2"></textarea>
+                <span class="text-danger" asp-validation-for="About"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Subject">Fənn</label>
+                <input class="form-control" placeholder="Fənn Əlavə Edin" asp-for="Subject">
+            </div>
+            <div class="form-group">
+                <label asp-for="Age">Yaş</label>
+                <input class="form-control" placeholder="Yaş Əlavə Edin" asp-for="Age">
+            </div>
+            <div class="form-group">
+                <label asp-for="IsExpert">Expert</label>
+                <input class="form-control" asp-for="IsExpert">
+                <span class="text-danger" asp-validation-for="IsExpert"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ImageFile">Şəkil</label>
+                <input class="form-control" asp-for="ImageFile">
+                <span class="text-danger" asp-validation-for="ImageFile"></span>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</div>
+

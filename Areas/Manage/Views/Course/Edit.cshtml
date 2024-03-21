@@ -1,0 +1,64 @@
+﻿@model Course
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<div class="row justify-content-center">
+    <div class="col-md-8">
+        <h1>Edit</h1>
+        <form asp-action="edit" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label asp-for="Name">Name</label>
+                <input class="form-control" asp-for="Name">
+                <span class="text-danger" asp-validation-for="Name"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TeacherId">Teacher</label>
+                <select class="form-control" asp-for="TeacherId" asp-items="new SelectList(ViewBag.Teachers,nameof(Teacher.Id),nameof(Teacher.Name))">
+                </select>
+                <span class="text-danger" asp-validation-for="TeacherId"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CategorieId">Categorie</label>
+                <select class="form-control" asp-for="CategorieId" asp-items="new SelectList(ViewBag.Categories,nameof(Categorie.Id),nameof(Categorie.CategoryName))">
+                </select>
+                <span class="text-danger" asp-validation-for="CategorieId"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description">Description</label>
+                <textarea class="form-control" asp-for="Description" rows="2"></textarea>
+                <span class="text-danger" asp-validation-for="Description"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IsPopular">IsPopular</label>
+                <input class="form-control" asp-for="IsPopular">
+                <span class="text-danger" asp-validation-for="IsPopular"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StudentCount">Student Count</label>
+                <input class="form-control" asp-for="StudentCount">
+                <span class="text-danger" asp-validation-for="StudentCount"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="ImageFile">Image</label>
+                <input class="form-control" asp-for="ImageFile">
+                <span class="text-danger" asp-validation-for="ImageFile"></span>
+            </div>
+            <div class="d-flex">
+                <div class="img-box" style="position:relative;margin-right:14px">
+                        <input type="hidden" value="@Model.ImageFile" name="CourseImage">
+                        <img width="200" src="~/uploads/courses/@Model.Image" />
+                 </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</div>
+
+
+@section Scripts{
+    @Html.Partial("_ValidationScriptsPartial")
+}
+
+

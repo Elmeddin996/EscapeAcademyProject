@@ -1,0 +1,23 @@
+﻿@model Categorie
+@{
+    ViewData["Title"] = "Create";
+}
+
+
+<div class="row justify-content-center">
+    <div class="col-md-8">
+        <h1>Yeni Kategoriya Əlavə Et</h1>
+        <form asp-action="create" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label asp-for="CategoryName">Kategoriya Adı</label>
+                <input class="form-control" placeholder="Kategoriya Adı Əlavə Edin" asp-for="CategoryName">
+            </div>
+            <div class="form-group">
+                <label asp-for="ImageFile">Image</label>
+                <input class="form-control" asp-for="ImageFile">
+                <span class="text-danger" asp-validation-for="ImageFile"></span>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</div>

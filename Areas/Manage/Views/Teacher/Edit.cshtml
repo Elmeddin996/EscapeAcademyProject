@@ -1,0 +1,52 @@
+﻿@model Teacher
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<div class="row justify-content-center">
+    <div class="col-md-8">
+        <h1>Redaktə Et</h1>
+        <form asp-action="edit" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label asp-for="Name">Ad</label>
+                <input class="form-control" placeholder="Ad Əlavə Edin" asp-for="Name">
+            </div>
+            <div class="form-group">
+                <label asp-for="Surename">Soyad</label>
+                <input class="form-control" placeholder="Soyad Əlavə Edin" asp-for="Surename">
+            </div>
+            <div class="form-group">
+                <label asp-for="About">Haqqında</label>
+                <textarea class="form-control" asp-for="About" rows="2"></textarea>
+                <span class="text-danger" asp-validation-for="About"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Subject">Fənn</label>
+                <input class="form-control" placeholder="Fənn Əlavə Edin" asp-for="Subject">
+            </div>
+            <div class="form-group">
+                <label asp-for="Age">Yaş</label>
+                <input class="form-control" placeholder="Yaş Əlavə Edin" asp-for="Age">
+            </div>
+            <div class="form-group">
+                <label asp-for="IsExpert">Expert</label>
+                <input class="form-control" asp-for="IsExpert">
+                <span class="text-danger" asp-validation-for="IsExpert"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ImageFile">Şəkil</label>
+                <input class="form-control" asp-for="ImageFile">
+                <span class="text-danger" asp-validation-for="ImageFile"></span>
+            </div>
+            <div class="d-flex">
+                <div class="img-box" style="position:relative;margin-right:14px">
+                    <input type="hidden" value="@Model.ImageFile" name="TeacherImage">
+                    <img width="200" src="~/uploads/teachers/@Model.Image" />
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+    </div>
+</div>
+
