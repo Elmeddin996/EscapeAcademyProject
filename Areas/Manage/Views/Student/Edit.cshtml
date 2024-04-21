@@ -1,0 +1,39 @@
+﻿@model Student
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<div class="row justify-content-center">
+    <div class="col-md-8">
+        <h1>Redaktə Et</h1>
+        <form asp-action="edit" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label asp-for="FullName">Ad</label>
+                <input class="form-control" placeholder="Ad və Soyad Əlavə Edin" asp-for="FullName">
+            </div>
+            <div class="form-group">
+                <label asp-for="Profession">Peşə</label>
+                <input class="form-control" placeholder="Peşə Əlavə Edin" asp-for="Profession">
+            </div>
+            <div class="form-group">
+                <label asp-for="Comment">Tələbə Rəyi</label>
+                <textarea class="form-control" asp-for="Comment" rows="2"></textarea>
+                <span class="text-danger" asp-validation-for="Comment"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ImageFile">Şəkil</label>
+                <input class="form-control" asp-for="ImageFile">
+                <span class="text-danger" asp-validation-for="ImageFile"></span>
+            </div>
+            <div class="d-flex">
+                <div class="img-box" style="position:relative;margin-right:14px">
+                    <input type="hidden" value="@Model.ImageFile" name="TeacherImage">
+                    <img width="200" src="~/uploads/students/@Model.Image" />
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+    </div>
+</div>
+

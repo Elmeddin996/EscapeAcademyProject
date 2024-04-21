@@ -7,6 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="MailKit" Version="4.4.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Google" Version="6.0.29" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.27" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.27" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.27">
@@ -19,6 +21,7 @@
     <Folder Include="wwwroot\manage\" />
     <Folder Include="wwwroot\uploads\courses\" />
     <Folder Include="wwwroot\uploads\categories\" />
+    <Folder Include="wwwroot\uploads\students\" />
     <Folder Include="wwwroot\uploads\teachers\" />
     <Folder Include="wwwroot\uploads\sliders\" />
   </ItemGroup>

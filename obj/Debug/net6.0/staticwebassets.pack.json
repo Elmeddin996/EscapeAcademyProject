@@ -9,8 +9,20 @@
       "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
     },
     {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Escape\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Escape\\wwwroot\\css\\plugins.css",
+      "PackagePath": "staticwebassets\\css\\plugins.css"
+    },
+    {
       "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Escape\\wwwroot\\css\\style.css",
       "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Escape\\wwwroot\\css\\style2.css",
+      "PackagePath": "staticwebassets\\css\\style2.css"
     },
     {
       "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Escape\\wwwroot\\img\\about.jpg",
@@ -7821,16 +7833,32 @@
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
     },
     {
-      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Escape\\wwwroot\\uploads\\categories\\1e0ba63e-04db-44e6-bb7e-a2a016976cd4cat-4.jpg",
-      "PackagePath": "staticwebassets\\uploads\\categories\\1e0ba63e-04db-44e6-bb7e-a2a016976cd4cat-4.jpg"
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Escape\\wwwroot\\uploads\\categories\\0b91619a-bb98-4f8c-a440-9f68d512f89dcat-1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\categories\\0b91619a-bb98-4f8c-a440-9f68d512f89dcat-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Escape\\wwwroot\\uploads\\categories\\1a6707f7-4c26-4134-95e9-502cc81529ffcat-1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\categories\\1a6707f7-4c26-4134-95e9-502cc81529ffcat-1.jpg"
     },
     {
       "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Escape\\wwwroot\\uploads\\categories\\204097b0-6f26-40ec-8c4d-218d8f74476fcarousel-1.jpg",
       "PackagePath": "staticwebassets\\uploads\\categories\\204097b0-6f26-40ec-8c4d-218d8f74476fcarousel-1.jpg"
     },
     {
-      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Escape\\wwwroot\\uploads\\categories\\c50accf4-92ba-4078-a6f9-14e8e2971eb8carousel-2.jpg",
-      "PackagePath": "staticwebassets\\uploads\\categories\\c50accf4-92ba-4078-a6f9-14e8e2971eb8carousel-2.jpg"
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Escape\\wwwroot\\uploads\\categories\\4a1c1aca-bd2c-47bf-8cba-5291440e59c6cat-1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\categories\\4a1c1aca-bd2c-47bf-8cba-5291440e59c6cat-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Escape\\wwwroot\\uploads\\categories\\8695784e-0601-42c9-b360-db2aed6bc53fcat-1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\categories\\8695784e-0601-42c9-b360-db2aed6bc53fcat-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Escape\\wwwroot\\uploads\\categories\\a65ac494-571a-477a-89a4-ecb868d6dad4cat-1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\categories\\a65ac494-571a-477a-89a4-ecb868d6dad4cat-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Escape\\wwwroot\\uploads\\categories\\bd981a86-afe5-4b5f-93d9-bf34df12a743cat-1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\categories\\bd981a86-afe5-4b5f-93d9-bf34df12a743cat-1.jpg"
     },
     {
       "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Escape\\wwwroot\\uploads\\courses\\06c74306-4536-49a1-96d9-138dfdbe3c7dWhatsApp Image 2023-11-15 at 22.26.07.jpeg",
@@ -7873,6 +7901,10 @@
       "PackagePath": "staticwebassets\\uploads\\courses\\6de98072-8d50-4d3e-a74a-42983f913c85course-2.jpg"
     },
     {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Escape\\wwwroot\\uploads\\courses\\6f75cc84-6980-45d5-bd15-5f447f2e6b51course-3.jpg",
+      "PackagePath": "staticwebassets\\uploads\\courses\\6f75cc84-6980-45d5-bd15-5f447f2e6b51course-3.jpg"
+    },
+    {
       "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Escape\\wwwroot\\uploads\\courses\\87ed4b20-3ff5-41af-9bac-293cb7696dc6cat-3.jpg",
       "PackagePath": "staticwebassets\\uploads\\courses\\87ed4b20-3ff5-41af-9bac-293cb7696dc6cat-3.jpg"
     },
@@ -7885,12 +7917,24 @@
       "PackagePath": "staticwebassets\\uploads\\courses\\b0240024-bbb2-4216-97ab-9bf8bdf7f2944a8cf304-830c-4bde-9e67-a970cd7a413edriver-license_6963488.png"
     },
     {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Escape\\wwwroot\\uploads\\courses\\b07a36d5-2d62-4c76-88f7-aad3d91c12e1course-1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\courses\\b07a36d5-2d62-4c76-88f7-aad3d91c12e1course-1.jpg"
+    },
+    {
       "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Escape\\wwwroot\\uploads\\courses\\c8b77df9-11a7-463d-9552-6b3b07d2db70course-3.jpg",
       "PackagePath": "staticwebassets\\uploads\\courses\\c8b77df9-11a7-463d-9552-6b3b07d2db70course-3.jpg"
     },
     {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Escape\\wwwroot\\uploads\\courses\\d25dc4b5-f133-486c-9c8c-f312a010ea04course-2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\courses\\d25dc4b5-f133-486c-9c8c-f312a010ea04course-2.jpg"
+    },
+    {
       "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Escape\\wwwroot\\uploads\\courses\\f3d5c15c-0c1e-42bb-b4ab-69ccce8983c94a8cf304-830c-4bde-9e67-a970cd7a413edriver-license_6963488.png",
       "PackagePath": "staticwebassets\\uploads\\courses\\f3d5c15c-0c1e-42bb-b4ab-69ccce8983c94a8cf304-830c-4bde-9e67-a970cd7a413edriver-license_6963488.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Escape\\wwwroot\\uploads\\courses\\f99c07fe-c878-439f-94ca-e3d20d95bee8cat-3.jpg",
+      "PackagePath": "staticwebassets\\uploads\\courses\\f99c07fe-c878-439f-94ca-e3d20d95bee8cat-3.jpg"
     },
     {
       "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Escape\\wwwroot\\uploads\\courses\\f9a865af-2908-4634-8944-eef163093898WhatsApp Image 2023-11-15 at 22.26.07.jpeg",
@@ -7905,8 +7949,32 @@
       "PackagePath": "staticwebassets\\uploads\\sliders\\84653b47-31c7-437f-b4da-2e863586a834carousel-1.jpg"
     },
     {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Escape\\wwwroot\\uploads\\students\\6ca2ddfe-bd67-4909-a68f-3274a304c05atestimonial-2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\students\\6ca2ddfe-bd67-4909-a68f-3274a304c05atestimonial-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Escape\\wwwroot\\uploads\\students\\c1d26226-a6e7-48d1-a341-c40402280ea3team-2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\students\\c1d26226-a6e7-48d1-a341-c40402280ea3team-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Escape\\wwwroot\\uploads\\students\\cba2e6df-b416-491d-a801-09106123b821team-1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\students\\cba2e6df-b416-491d-a801-09106123b821team-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Escape\\wwwroot\\uploads\\students\\dad4e19d-a9bb-44f1-b854-aba1e9345bfetestimonial-3.jpg",
+      "PackagePath": "staticwebassets\\uploads\\students\\dad4e19d-a9bb-44f1-b854-aba1e9345bfetestimonial-3.jpg"
+    },
+    {
       "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Escape\\wwwroot\\uploads\\teachers\\03af2b78-a725-475b-bfd2-8962d8cec322team-4.jpg",
       "PackagePath": "staticwebassets\\uploads\\teachers\\03af2b78-a725-475b-bfd2-8962d8cec322team-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Escape\\wwwroot\\uploads\\teachers\\0782c12e-a4fc-43a8-9d4f-67b020a09aebteam-4.jpg",
+      "PackagePath": "staticwebassets\\uploads\\teachers\\0782c12e-a4fc-43a8-9d4f-67b020a09aebteam-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Escape\\wwwroot\\uploads\\teachers\\3ec1c9ec-e619-4ce0-84bb-6255df731e48team-1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\teachers\\3ec1c9ec-e619-4ce0-84bb-6255df731e48team-1.jpg"
     },
     {
       "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Escape\\wwwroot\\uploads\\teachers\\84073570-aa9a-49e2-9e5c-6ca894072f10team-1.jpg",
@@ -7915,6 +7983,50 @@
     {
       "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Escape\\wwwroot\\uploads\\teachers\\9c1ccea9-f675-4e34-ad2e-da34cbe34f4bteam-1.jpg",
       "PackagePath": "staticwebassets\\uploads\\teachers\\9c1ccea9-f675-4e34-ad2e-da34cbe34f4bteam-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Escape\\wwwroot\\uploads\\teachers\\ed3ced89-3c93-4eb5-bde8-ad992c77f14fteam-4.jpg",
+      "PackagePath": "staticwebassets\\uploads\\teachers\\ed3ced89-3c93-4eb5-bde8-ad992c77f14fteam-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Escape\\wwwroot\\uploads\\teachers\\efb0f4fe-75d3-43ac-9be2-6d07f3408fc5team-3.jpg",
+      "PackagePath": "staticwebassets\\uploads\\teachers\\efb0f4fe-75d3-43ac-9be2-6d07f3408fc5team-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Escape\\wwwroot\\vendor\\boxicons\\css\\animations.css",
+      "PackagePath": "staticwebassets\\vendor\\boxicons\\css\\animations.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Escape\\wwwroot\\vendor\\boxicons\\css\\boxicons.css",
+      "PackagePath": "staticwebassets\\vendor\\boxicons\\css\\boxicons.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Escape\\wwwroot\\vendor\\boxicons\\css\\boxicons.min.css",
+      "PackagePath": "staticwebassets\\vendor\\boxicons\\css\\boxicons.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Escape\\wwwroot\\vendor\\boxicons\\css\\transformations.css",
+      "PackagePath": "staticwebassets\\vendor\\boxicons\\css\\transformations.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Escape\\wwwroot\\vendor\\boxicons\\fonts\\boxicons.eot",
+      "PackagePath": "staticwebassets\\vendor\\boxicons\\fonts\\boxicons.eot"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Escape\\wwwroot\\vendor\\boxicons\\fonts\\boxicons.svg",
+      "PackagePath": "staticwebassets\\vendor\\boxicons\\fonts\\boxicons.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Escape\\wwwroot\\vendor\\boxicons\\fonts\\boxicons.ttf",
+      "PackagePath": "staticwebassets\\vendor\\boxicons\\fonts\\boxicons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Escape\\wwwroot\\vendor\\boxicons\\fonts\\boxicons.woff",
+      "PackagePath": "staticwebassets\\vendor\\boxicons\\fonts\\boxicons.woff"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Escape\\wwwroot\\vendor\\boxicons\\fonts\\boxicons.woff2",
+      "PackagePath": "staticwebassets\\vendor\\boxicons\\fonts\\boxicons.woff2"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Escape.Microsoft.AspNetCore.StaticWebAssets.props",

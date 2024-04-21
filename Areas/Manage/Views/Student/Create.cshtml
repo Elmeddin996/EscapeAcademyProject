@@ -1,0 +1,33 @@
+﻿@model Student
+@{
+    ViewData["Title"] = "Create";
+}
+
+
+<div class="row justify-content-center">
+    <div class="col-md-8">
+        <h1>Yeni Tələbə Əlavə Et</h1>
+        <form asp-action="create" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label asp-for="FullName">Ad və Soyad</label>
+                <input class="form-control" placeholder="Ad və Soyad Əlavə Edin" asp-for="FullName">
+            </div>
+            <div class="form-group">
+                <label asp-for="Profession">Peşə</label>
+                <input class="form-control" placeholder="Peşə Əlavə Edin" asp-for="Profession">
+            </div>
+            <div class="form-group">
+                <label asp-for="Comment">Tələbə Rəyi</label>
+                <textarea class="form-control" asp-for="Comment" rows="2"></textarea>
+                <span class="text-danger" asp-validation-for="Comment"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ImageFile">Şəkil</label>
+                <input class="form-control" asp-for="ImageFile">
+                <span class="text-danger" asp-validation-for="ImageFile"></span>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</div>
+

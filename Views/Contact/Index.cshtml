@@ -1,0 +1,79 @@
+﻿@model Settings
+ <!-- ======= Breadcrumbs ======= -->
+<section id="breadcrumbs" class="breadcrumbs">
+    <div class="container">
+
+        <ol>
+            <li><a asp-controller="home" asp-action="index">Əsas Səhifə</a></li>
+            <li>Əlaqə</li>
+        </ol>
+        <h1>Əlaqə</h1>
+
+    </div>
+</section><!-- End Breadcrumbs -->
+<!-- ======= Contact Section ======= -->
+<section id="contact" class="contact">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="info-box mb-4">
+                    <i class="bx bx-map"></i>
+                    <h3>Ünvan</h3>
+                    <p>@Model.Address</p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="info-box  mb-4">
+                    <i class="bx bx-envelope"></i>
+                    <h3>Email</h3>
+                    <p>@Model.Email</p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="info-box  mb-4">
+                    <i class="bx bx-phone-call"></i>
+                    <h3>Zəng Et</h3>
+                    <p>@Model.Phone</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-lg-6 ">
+                <iframe class="mb-4 mb-lg-0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3030.0253639505495!2d49.66216837472918!3d40.585195545370794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x403096dd2774e5f5%3A0x73d100a665e392ef!2sSulh%20Plaza!5e0!3m2!1sen!2saz!4v1712517800729!5m2!1sen!2saz" frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
+            </div>
+
+            <div class="col-lg-6">
+                <form  method="post" enctype="multipart/form-data" class="php-email-form">
+                    <div class="form-group mt-3">
+                        <input type="text" class="form-control" name="Fullname" id="Fullname" placeholder="Ad və Soyad" required>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 form-group">
+                            <input type="number" name="phone" class="form-control" id="phone" placeholder="Nömrə" required>
+                        </div>
+                        <div class="col-md-6 form-group mt-3 mt-md-0">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
+                        </div>
+                    </div>
+                    <div class="form-group mt-3">
+                        <textarea class="form-control" name="message" rows="5" placeholder="Mesaj" required></textarea>
+                    </div>
+                    <div class="my-3">
+                        <div class="loading">Göndərilir...</div>
+                        <div class="error-message"></div>
+                        <div class="sent-message">Mesajınız Göndərildi. Təşəkkür edirik!</div>
+                    </div>
+                    <div class="text-center"><button type="submit">Mesaj Göndər</button></div>
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+</section><!-- End Contact Section -->

@@ -1,5 +1,6 @@
 using Escape.DAL;
 using Escape.Models;
+using Escape.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -19,8 +20,16 @@ builder.Services.AddIdentity<AppUser, IdentityRole>(opt =>
     opt.SignIn.RequireConfirmedEmail = true;
 }).AddDefaultTokenProviders().AddEntityFrameworkStores<EscapeDbContext>();
 
+builder.Services.AddScoped<IEmailSender, EmailSender>();
+
+
 builder.Services.AddHttpContextAccessor();
 
+builder.Services.AddAuthentication().AddGoogle(opt =>
+{
+    opt.ClientId = "755149220564-7drq6qhjdtjp5cur0smgfhup65i64as2.apps.googleusercontent.com";
+    opt.ClientSecret = "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";
+});
 
 builder.Services.ConfigureApplicationCookie(options =>
 {

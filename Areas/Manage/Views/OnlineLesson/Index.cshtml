@@ -1,0 +1,27 @@
+﻿@model OnlineLesson
+@{
+    ViewData["Title"] = "OnlineLesson";
+}
+
+<div class="row justify-content-center">
+    <div class="col-md-8">
+        <h1>Online Dərs Göndər</h1>
+        <form asp-action="index" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label asp-for="Title">Başlıq</label>
+                <input class="form-control" placeholder="Başlıq Əlavə Edin" asp-for="Title">
+            </div>
+            <div class="form-group">
+                <label asp-for="Link">Linkə</label>
+                <input class="form-control" placeholder="Link Əlavə Edin" asp-for="Link">
+            </div>
+            <div class="form-group">
+                <label asp-for="Description">Məlumat</label>
+                <textarea class="form-control" asp-for="Description" rows="2"></textarea>
+                <span class="text-danger" asp-validation-for="Description"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Göndər</button>
+        </form>
+    </div>
+</div>

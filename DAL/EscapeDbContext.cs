@@ -17,6 +17,7 @@ namespace Escape.DAL
         public DbSet<AppUser> AppUsers { get; set; }
         public DbSet<OnlineLesson> OnlineLessons { get; set;}
         public DbSet<Student> Students { get; set; }    
+        public DbSet<Settings> Settings { get; set; }
 
     }
 }

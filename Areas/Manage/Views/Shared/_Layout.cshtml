@@ -10,7 +10,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SB Admin 2 - Dashboard</title>
+    <title>Escape Academy Admin Panel</title>
 
     <!-- Custom fonts for this template-->
     <link href="~/manage/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -68,6 +68,12 @@
                 </a>
             </li>
             <li class="nav-item">
+                <a class="nav-link" asp-controller="student" asp-action="index">
+                    <i class="fas fa-fw fa-table"></i>
+                    <span>Tələbələr</span>
+                </a>
+            </li>
+            <li class="nav-item">
                 <a class="nav-link" asp-controller="categorie" asp-action="index">
                     <i class="fas fa-fw fa-table"></i>
                     <span>Kateqoriyalar</span>
@@ -80,16 +86,22 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" asp-controller="" asp-action="index">
+                <a class="nav-link" asp-controller="onlinelesson" asp-action="index">
                     <i class="fas fa-fw fa-table"></i>
                     <span>Online Dərs</span>
                 </a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" asp-controller="tag" asp-action="index">
+                <a class="nav-link" asp-controller="user" asp-action="index">
                     <i class="fas fa-fw fa-table"></i>
                     <span>Üzvlər</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" asp-controller="settings" asp-action="index">
+                    <i class="fas fa-fw fa-table"></i>
+                    <span>Məlumatlar</span>
                 </a>
             </li>
 
