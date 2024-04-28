@@ -96,7 +96,6 @@ C:\Users\User\OneDrive\Desktop\Escape\obj\Debug\net6.0\staticwebassets.developme
 C:\Users\User\OneDrive\Desktop\Escape\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\User\OneDrive\Desktop\Escape\obj\Debug\net6.0\scopedcss\bundle\Escape.styles.css
 C:\Users\User\OneDrive\Desktop\Escape\obj\Debug\net6.0\scopedcss\projectbundle\Escape.bundle.scp.css
-C:\Users\User\OneDrive\Desktop\Escape\obj\Debug\net6.0\Escape.csproj.CopyComplete
 C:\Users\User\OneDrive\Desktop\Escape\obj\Debug\net6.0\Escape.dll
 C:\Users\User\OneDrive\Desktop\Escape\obj\Debug\net6.0\refint\Escape.dll
 C:\Users\User\OneDrive\Desktop\Escape\obj\Debug\net6.0\Escape.pdb
@@ -111,3 +110,5 @@ C:\Users\User\OneDrive\Desktop\Escape\bin\Debug\net6.0\System.Text.Encoding.Code
 C:\Users\User\OneDrive\Desktop\Escape\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
 C:\Users\User\OneDrive\Desktop\Escape\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Text.Encoding.CodePages.dll
 C:\Users\User\OneDrive\Desktop\Escape\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.Google.dll
+C:\Users\User\OneDrive\Desktop\Escape\obj\Debug\net6.0\Escape.sourcelink.json
+C:\Users\User\OneDrive\Desktop\Escape\obj\Debug\net6.0\Escape.csproj.Up2Date

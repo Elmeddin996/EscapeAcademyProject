@@ -97,6 +97,7 @@ namespace Escape.Areas.Manage.Controllers
             return RedirectToAction("index");
         }
 
+
         public IActionResult Delete(int id)
         {
             Teacher teacher = _context.Teachers.Find(id);
