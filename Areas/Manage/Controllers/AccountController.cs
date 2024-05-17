@@ -31,21 +31,21 @@ namespace Escape.Areas.Manage.Controllers
                 IsAdmin = true,
             };
 
-            var result = await _userManager.CreateAsync(user, "Admin123");
+            var result = await _userManager.CreateAsync(user, "Escape2024");
 
             await _userManager.AddToRoleAsync(user, "Admin");
 
             return Json(result);
         }
 
-        //public async Task<IActionResult> CreateRoles()
-        //{
-        //    //await _roleManager.CreateAsync(new IdentityRole("SuperAdmin"));
-        //    await _roleManager.CreateAsync(new IdentityRole("Admin"));
-        //    await _roleManager.CreateAsync(new IdentityRole("Member"));
+        public async Task<IActionResult> CreateRoles()
+        {
+            //await _roleManager.CreateAsync(new IdentityRole("SuperAdmin"));
+            await _roleManager.CreateAsync(new IdentityRole("Admin"));
+            await _roleManager.CreateAsync(new IdentityRole("Member"));
 
-        //    return Ok();
-        //}
+            return Ok();
+        }
 
 
         public IActionResult Login()
