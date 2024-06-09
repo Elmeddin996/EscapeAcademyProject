@@ -50,7 +50,7 @@ namespace Escape.Controllers
                 return View();
             }
 
-            var result = await _signInManager.PasswordSignInAsync(user, loginVM.Password, false, true);
+            var result = await _signInManager.PasswordSignInAsync(user, loginVM.Password,true,true);
 
             if (result.IsLockedOut)
             {
@@ -95,6 +95,7 @@ namespace Escape.Controllers
                 Surename = registerVM.Surename,
                 UserName = registerVM.UserName,
                 Email = registerVM.Email,
+                Phone = registerVM.Phone,
                 IsAdmin = false
             };
 
@@ -106,39 +107,39 @@ namespace Escape.Controllers
                 return View();
             }
 
-            var token = await _userManager.GenerateEmailConfirmationTokenAsync(user);
-            var confirmationLink = Url.Action(nameof(ConfirmEmail), "Account", new { token, email = user.Email }, Request.Scheme);
+            //var token = await _userManager.GenerateEmailConfirmationTokenAsync(user);
+            //var confirmationLink = Url.Action(nameof(ConfirmEmail), "Account", new { token, email = user.Email }, Request.Scheme);
 
-             _emailSender.Send(user.Email, "Email Confirme", $"Click <a href=\"{confirmationLink}\">here</a> to verification your email");
+             //_emailSender.Send(user.Email, "Email Confirme", $"Click <a href=\"{confirmationLink}\">here</a> to verification your email");
 
             await _userManager.AddToRoleAsync(user, "Member");
 
 
-            return RedirectToAction(nameof(SuccessRegistration));
+            return RedirectToAction(nameof(Login));
         }
 
      
-        public async Task<IActionResult> ConfirmEmail()
-        {
-            return View();
-        }
+        //public async Task<IActionResult> ConfirmEmail()
+        //{
+        //    return View();
+        //}
 
-        [HttpGet]
-        public async Task<IActionResult> ConfirmEmail(string token, string email)
-        {
-            var user = await _userManager.FindByEmailAsync(email);
-            if (user == null)
-                return View("Error");
+        //[HttpGet]
+        //public async Task<IActionResult> ConfirmEmail(string token, string email)
+        //{
+        //    var user = await _userManager.FindByEmailAsync(email);
+        //    if (user == null)
+        //        return View("Error");
 
-            var result = await _userManager.ConfirmEmailAsync(user, token);
-            return View(result.Succeeded ? nameof(ConfirmEmail) : "Error");
-        }
+        //    var result = await _userManager.ConfirmEmailAsync(user, token);
+        //    return View(result.Succeeded ? nameof(ConfirmEmail) : "Error");
+        //}
 
-        [HttpGet]
-        public IActionResult SuccessRegistration()
-        {
-            return View();
-        }
+        //[HttpGet]
+        //public IActionResult SuccessRegistration()
+        //{
+        //    return View();
+        //}
 
         public async Task<IActionResult> Logout()
         {

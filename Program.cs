@@ -9,7 +9,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<EscapeDbContext>(opt =>
 {
-    opt.UseSqlServer(builder.Configuration.GetConnectionString("Default"));
+    opt.UseNpgsql(builder.Configuration.GetConnectionString("Default"));
 });
 
 
@@ -17,7 +17,7 @@ builder.Services.AddIdentity<AppUser, IdentityRole>(opt =>
 {
     opt.Password.RequireNonAlphanumeric = false;
     opt.Password.RequiredLength = 8;
-    opt.SignIn.RequireConfirmedEmail = true;
+    opt.SignIn.RequireConfirmedEmail = false;
 }).AddDefaultTokenProviders().AddEntityFrameworkStores<EscapeDbContext>();
 
 builder.Services.AddScoped<IEmailSender, EmailSender>();
@@ -25,10 +25,11 @@ builder.Services.AddScoped<IEmailSender, EmailSender>();
 
 builder.Services.AddHttpContextAccessor();
 
-builder.Services.AddAuthentication().AddGoogle(opt =>
+
+builder.Services.AddAuthentication().AddGoogle(googleOptions =>
 {
-    opt.ClientId = "755149220564-7drq6qhjdtjp5cur0smgfhup65i64as2.apps.googleusercontent.com";
-    opt.ClientSecret = "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";
+    googleOptions.ClientId = "25496810447-jdlk77fa0qin5o7m7815mac3cug87k1k.apps.googleusercontent.com";
+    googleOptions.ClientSecret = "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";
 });
 
 builder.Services.ConfigureApplicationCookie(options =>

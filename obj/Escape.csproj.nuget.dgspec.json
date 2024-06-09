@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\OneDrive\\Desktop\\Escape\\Escape.csproj": {}
+    "/var/www/EscapeAcademy/EscapeAcademyProject/Escape.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\OneDrive\\Desktop\\Escape\\Escape.csproj": {
+    "/var/www/EscapeAcademy/EscapeAcademyProject/Escape.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\OneDrive\\Desktop\\Escape\\Escape.csproj",
+        "projectUniqueName": "/var/www/EscapeAcademy/EscapeAcademyProject/Escape.csproj",
         "projectName": "Escape",
-        "projectPath": "C:\\Users\\User\\OneDrive\\Desktop\\Escape\\Escape.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\OneDrive\\Desktop\\Escape\\obj\\",
+        "projectPath": "/var/www/EscapeAcademy/EscapeAcademyProject/Escape.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/var/www/EscapeAcademy/EscapeAcademyProject/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/root/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -38,11 +32,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -61,15 +50,19 @@
               "target": "Package",
               "version": "[6.0.27, )"
             },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[6.0.27, )"
-            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.27, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.19.6, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[6.0.0, )"
             }
           },
           "imports": [
@@ -78,8 +71,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -91,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
         }
       }
     }
