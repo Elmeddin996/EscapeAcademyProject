@@ -106,6 +106,8 @@ namespace Escape.Areas.Manage.Controllers
             _context.Students.Remove(student);
             _context.SaveChanges();
 
+            FileManager.Delete(_env.WebRootPath, "uploads/students", student.Image);
+
             return StatusCode(200);
         }
     }

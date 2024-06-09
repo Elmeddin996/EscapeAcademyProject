@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Escape")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+afddb2d8da2a4f3d594da41de1d7133b24a48586")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cd219faddf16878ccd28e87387aad70dff135144")]
 [assembly: System.Reflection.AssemblyProductAttribute("Escape")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Escape")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

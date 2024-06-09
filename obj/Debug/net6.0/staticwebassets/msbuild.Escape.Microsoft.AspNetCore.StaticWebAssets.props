@@ -31088,12 +31088,12 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\courses\6f75cc84-6980-45d5-bd15-5f447f2e6b51course-3.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\87c14a6b-ff66-473c-8635-f69392af25facarousel-1.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\5491c1e0-845e-4ae4-8c4e-8f244cd2ce15WhatsApp Image 2024-05-21 at 18.35.04.jpeg))">
       <SourceType>Package</SourceType>
       <SourceId>Escape</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Escape</BasePath>
-      <RelativePath>uploads/sliders/87c14a6b-ff66-473c-8635-f69392af25facarousel-1.jpg</RelativePath>
+      <RelativePath>uploads/sliders/5491c1e0-845e-4ae4-8c4e-8f244cd2ce15WhatsApp Image 2024-05-21 at 18.35.04.jpeg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -31102,7 +31102,7 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\87c14a6b-ff66-473c-8635-f69392af25facarousel-1.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\5491c1e0-845e-4ae4-8c4e-8f244cd2ce15WhatsApp Image 2024-05-21 at 18.35.04.jpeg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\f1582a1f-a05f-44ff-871f-a972faebe1f9carousel-2.jpg))">
       <SourceType>Package</SourceType>
@@ -31120,12 +31120,12 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\f1582a1f-a05f-44ff-871f-a972faebe1f9carousel-2.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\teachers\03af2b78-a725-475b-bfd2-8962d8cec322team-4.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\teachers\024c184c-5121-4893-bbf9-7a06bdff60f6j.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Escape</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Escape</BasePath>
-      <RelativePath>uploads/teachers/03af2b78-a725-475b-bfd2-8962d8cec322team-4.jpg</RelativePath>
+      <RelativePath>uploads/teachers/024c184c-5121-4893-bbf9-7a06bdff60f6j.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -31134,7 +31134,87 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\teachers\03af2b78-a725-475b-bfd2-8962d8cec322team-4.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\teachers\024c184c-5121-4893-bbf9-7a06bdff60f6j.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\teachers\9055bda9-0477-47a3-a925-92050b60d42420276e3a-deb7-4090-a636-777727c4fd67.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Escape</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Escape</BasePath>
+      <RelativePath>uploads/teachers/9055bda9-0477-47a3-a925-92050b60d42420276e3a-deb7-4090-a636-777727c4fd67.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\teachers\9055bda9-0477-47a3-a925-92050b60d42420276e3a-deb7-4090-a636-777727c4fd67.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\teachers\97c7b9ec-b371-4f08-8898-87f1c3156f295f3d39f3-b326-4492-9911-45c86c55dbc6.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Escape</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Escape</BasePath>
+      <RelativePath>uploads/teachers/97c7b9ec-b371-4f08-8898-87f1c3156f295f3d39f3-b326-4492-9911-45c86c55dbc6.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\teachers\97c7b9ec-b371-4f08-8898-87f1c3156f295f3d39f3-b326-4492-9911-45c86c55dbc6.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\teachers\dded9a09-bc61-4d2d-ab38-29f1850fc0edWhatsApp Image 2024-05-21 at 18.35.04.jpeg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Escape</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Escape</BasePath>
+      <RelativePath>uploads/teachers/dded9a09-bc61-4d2d-ab38-29f1850fc0edWhatsApp Image 2024-05-21 at 18.35.04.jpeg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\teachers\dded9a09-bc61-4d2d-ab38-29f1850fc0edWhatsApp Image 2024-05-21 at 18.35.04.jpeg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\teachers\dfcc27c6-7bdc-40af-bb15-0b82b4d40199resim_2024-06-07_201356365.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Escape</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Escape</BasePath>
+      <RelativePath>uploads/teachers/dfcc27c6-7bdc-40af-bb15-0b82b4d40199resim_2024-06-07_201356365.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\teachers\dfcc27c6-7bdc-40af-bb15-0b82b4d40199resim_2024-06-07_201356365.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\teachers\eaa25ac1-1bff-42cc-95ab-2f396a9d73f4920758c5-ea4a-4fee-9379-63344bb64fc1.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Escape</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Escape</BasePath>
+      <RelativePath>uploads/teachers/eaa25ac1-1bff-42cc-95ab-2f396a9d73f4920758c5-ea4a-4fee-9379-63344bb64fc1.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\teachers\eaa25ac1-1bff-42cc-95ab-2f396a9d73f4920758c5-ea4a-4fee-9379-63344bb64fc1.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vendor\boxicons\css\animations.css))">
       <SourceType>Package</SourceType>

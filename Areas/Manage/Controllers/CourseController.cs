@@ -143,6 +143,9 @@ namespace Escape.Areas.Manage.Controllers
 
             _context.Courses.Remove(course);
             _context.SaveChanges();
+
+            FileManager.Delete(_env.WebRootPath, "uploads/courses", course.Image);
+
             return RedirectToAction("index");
         }
     }

@@ -88,6 +88,10 @@ namespace Escape.Areas.Manage.Controllers
 
             existTeacher.Name = teacher.Name;
             existTeacher.Surename = teacher.Surename;
+            existTeacher.About = teacher.About;
+            existTeacher.Age = teacher.Age;
+            existTeacher.Subject = teacher.Subject;
+            existTeacher.IsExpert = teacher.IsExpert;
 
             _context.SaveChanges();
 
@@ -106,6 +110,8 @@ namespace Escape.Areas.Manage.Controllers
 
             _context.Teachers.Remove(teacher);
             _context.SaveChanges();
+
+            FileManager.Delete(_env.WebRootPath, "uploads/teachers", teacher.Image);
 
             return StatusCode(200);
         }

@@ -110,6 +110,8 @@ namespace Escape.Areas.Manage.Controllers
             _context.Sliders.Remove(slider);
             _context.SaveChanges();
 
+            FileManager.Delete(_env.WebRootPath, "uploads/sliders", slider.Image);
+
             return StatusCode(200);
         }
     }

@@ -111,6 +111,8 @@ namespace Escape.Areas.Manage.Controllers
             _context.Categories.Remove(categorie);
             _context.SaveChanges();
 
+            FileManager.Delete(_env.WebRootPath, "uploads/categories", categorie.Image);
+
             return StatusCode(200);
         }
     }
