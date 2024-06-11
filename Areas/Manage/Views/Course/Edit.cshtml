@@ -14,7 +14,7 @@
             </div>
             <div class="form-group">
                 <label asp-for="TeacherId">Teacher</label>
-                <select class="form-control" asp-for="TeacherId" asp-items="new SelectList(ViewBag.Teachers,nameof(Teacher.Id),nameof(Teacher.Name))">
+                <select class="form-control" asp-for="TeacherId" asp-items="ViewBag.Teachers">
                 </select>
                 <span class="text-danger" asp-validation-for="TeacherId"></span>
             </div>

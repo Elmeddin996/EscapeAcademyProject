@@ -7,6 +7,7 @@ using Escape.ViewModels;
 using System.Data;
 using Escape.Web.Models;
 using Escape.Helpers;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace Escape.Areas.Manage.Controllers
 {
@@ -26,7 +27,7 @@ namespace Escape.Areas.Manage.Controllers
         public IActionResult Index(int page = 1, string search = null)
         {
             var query = _context.Courses
-                .Include(x=>x.Teacher).Include(x => x.Categorie).AsQueryable();
+                .Include(x => x.Teacher).Include(x => x.Categorie).AsQueryable();
 
             if (search != null)
                 query = query.Where(x => x.Name.Contains(search));
@@ -38,7 +39,14 @@ namespace Escape.Areas.Manage.Controllers
 
         public IActionResult Create()
         {
-            ViewBag.Teachers = _context.Teachers.ToList();
+            ViewBag.Teachers = _context.Teachers
+              .Select(t => new SelectListItem
+              {
+                  Value = t.Id.ToString(),
+                  Text = $"{t.Name} {t.Surename}"
+              }).ToList();
+
+
             ViewBag.Categories = _context.Categories.ToList();
 
 
@@ -64,7 +72,7 @@ namespace Escape.Areas.Manage.Controllers
             }
 
             course.Image = FileManager.Save(_env.WebRootPath, "uploads/courses", course.ImageFile);
-            
+
 
             _context.Courses.Add(course);
             _context.SaveChanges();
@@ -74,7 +82,13 @@ namespace Escape.Areas.Manage.Controllers
 
         public IActionResult Edit(int id)
         {
-            ViewBag.Teachers = _context.Teachers.ToList();
+            ViewBag.Teachers = _context.Teachers
+              .Select(t => new SelectListItem
+              {
+                 Value = t.Id.ToString(),
+                 Text = $"{t.Name} {t.Surename}"
+              }).ToList();
+
             ViewBag.Categories = _context.Categories.ToList();
 
             Course course = _context.Courses.FirstOrDefault(x => x.Id == id);
@@ -105,10 +119,10 @@ namespace Escape.Areas.Manage.Controllers
 
 
             string oldImage = null;
-            if (course.ImageFile != null)   
+            if (course.ImageFile != null)
             {
                 oldImage = course.Image;
-                
+
                 if (course.Image == null)
                 {
                     course.Image = FileManager.Save(_env.WebRootPath, "uploads/courses", course.ImageFile);
@@ -131,14 +145,14 @@ namespace Escape.Areas.Manage.Controllers
 
             if (oldImage != null) FileManager.Delete(_env.WebRootPath, "uploads/courses", oldImage);
 
-           
+
             return RedirectToAction("index");
         }
 
 
-        public IActionResult Delete (int id)
+        public IActionResult Delete(int id)
         {
-            Course course =_context.Courses.Find(id);
+            Course course = _context.Courses.Find(id);
             if (course == null) return NotFound();
 
             _context.Courses.Remove(course);
