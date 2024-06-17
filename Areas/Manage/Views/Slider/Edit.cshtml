@@ -40,11 +40,17 @@
                 <span class="text-danger" asp-validation-for="ImageFile"></span>
 
             </div>
+            <div class="d-flex">
+                <div class="img-box" style="position:relative; margin-right:14px">
+                    <input type="hidden" value="@Model.ImageFile" name="SliderImage">
+                    <img width="200" src="~/uploads/sliders/@Model.Image" />
+                </div>
+            </div>
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>
     </div>
 </div>
 
-@section Scripts{
+@* @section Scripts {
     @Html.Partial("_ValidationScriptsPartial")
-}
+} *@

@@ -21,6 +21,7 @@ builder.Services.AddIdentity<AppUser, IdentityRole>(opt =>
 }).AddDefaultTokenProviders().AddEntityFrameworkStores<EscapeDbContext>();
 
 builder.Services.AddScoped<IEmailSender, EmailSender>();
+builder.Services.AddScoped<LayoutService>();
 
 
 builder.Services.AddHttpContextAccessor();

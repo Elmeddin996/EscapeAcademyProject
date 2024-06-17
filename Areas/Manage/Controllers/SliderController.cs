@@ -44,7 +44,6 @@ namespace Escape.Areas.Manage.Controllers
         public IActionResult Create(Slider slider)
         {
             ViewBag.NextOrder = slider.Order;
-            if (!ModelState.IsValid) return View();
 
             if (slider.ImageFile == null)
             {
@@ -79,13 +78,20 @@ namespace Escape.Areas.Manage.Controllers
 
             if (existSlider == null) return View("Error");
 
-            
-            string oldFileName = null;
+            string  oldFileName = null;
             if (slider.ImageFile != null)
             {
                 oldFileName = existSlider.Image;
-                existSlider.Image = FileManager.Save(_env.WebRootPath, "uploads/sliders", slider.ImageFile);
+
+                if (slider.Image == null)
+                {
+                    slider.Image = FileManager.Save(_env.WebRootPath, "uploads/sliders", slider.ImageFile);
+                    existSlider.Image = slider.Image;
+                }
+                else
+                    slider.Image = FileManager.Save(_env.WebRootPath, "uploads/sliders", slider.ImageFile);
             }
+            
 
             existSlider.Order = slider.Order;
             existSlider.Title = slider.Title;
